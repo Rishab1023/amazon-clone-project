@@ -1,44 +1,105 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-header{
+
+header {
     background-color: rgb(88, 85, 85);
     margin: 0px;
     padding: 0px;
+    
 }
-ul{
+
+ul {
     list-style: none;
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
     align-items: center;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
-li{
+
+li {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#searchbar{
+
+#searchbar {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-#options{
-    padding: 9.3px;
+
+#options {
+    padding: 10px;
     margin: 0px;
     border: 1px solid;
     background-color: rgb(180, 180, 180);
 }
-#search{
+
+#search {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid;
+    padding: 10px;
 }
-.searchicon{
+
+.searchicon {
     background-color: rgb(199, 169, 50);
     padding: 6px;
     border: 1px solid;
+}
+#logo{
+    color: aliceblue;
+    font-size: x-large;
+}
+#Delivery{
+    color: aliceblue;
+}
+#Account{
+    color: aliceblue;
+}
+#Orders{
+    color: aliceblue;
+}
+#Cart{
+    color: aliceblue;
+}
+#Delivery:hover{
+    color: rgb(0, 0, 0);
+    background-color: gray;
+    padding: 12px;
+    border-radius: 15px;
+}
+#Account:hover{
+    color: rgb(0, 0, 0);
+    background-color: gray;
+    padding: 12px;
+    border-radius: 15px;
+}
+#Orders:hover{
+    color: rgb(0, 0, 0);
+    background-color: gray;
+    padding: 12px;
+    border-radius: 15px;
+}
+#Cart:hover{
+    color: rgb(0, 0, 0);
+    background-color: gray;
+    border-radius: 15px;
+}
+
+.lang {
+    padding: 10px;
+    background-color: darkgoldenrod;
+}
+
+#Cart {
+    padding: 10px;
+    margin: 10px;
 }
