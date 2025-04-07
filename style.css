@@ -26,12 +26,13 @@ li {
     justify-content: space-between;
     align-items: center;
 }
-
+.mainbar{
+    padding: 10px;
+}
 #searchbar {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #options {
@@ -58,17 +59,11 @@ li {
     color: aliceblue;
     font-size: x-large;
 }
-#Delivery{
+.navcolor{
     color: aliceblue;
-}
-#Account{
-    color: aliceblue;
-}
-#Orders{
-    color: aliceblue;
-}
-#Cart{
-    color: aliceblue;
+    transition: ease-in-out;
+    transition-duration: 1s;
+    
 }
 .navhover:hover{
     color: rgb(0, 0, 0);
